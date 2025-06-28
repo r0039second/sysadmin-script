@@ -2,8 +2,8 @@
 
 #Author: Tien Phan
 #Change Logs:
-#Version 0.1 07122015 What time is SSL Certificate expriration? I write a script to do it. It will be alerted to me within the next 15 days.
-#I'm trying to think differently to improve "brain". Hope it better.
+#Version 0.1 07122015 What time is the SSL Certificate expiration? I wrote a script to do it. It will be alerted to me within the next 15 days.
+#I'm trying to think differently to improve "brain". Hope it's better.
 
 SUBJECT="company SSL Certificate has EXPIRED within 15 DAYS. Please RENEW ASAP!"
 
