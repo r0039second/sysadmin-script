@@ -5,8 +5,8 @@ command_directory = /usr/sbin
 daemon_directory = /usr/libexec/postfix
 data_directory = /var/lib/postfix
 mail_owner = postfix
-myhostname = gmail.moca.vn
-mydomain = moca.vn
+myhostname = gmail.company.vn
+mydomain = company.vn
 myorigin = $mydomain
 inet_interfaces = all
 #inet_interfaces = $myhostname
@@ -210,7 +210,7 @@ mailbox_transport = lmtp:unix:/var/lib/imap/socket/lmtp
 #
 
 smtpd_banner = $myhostname
-#smtpd_banner = $moca.vn ESMTP $SUSE
+#smtpd_banner = $company.vn ESMTP $SUSE
 #smtpd_banner = $myhostname ESMTP $mail_name ($mail_version)
 
 # PARALLEL DELIVERY TO THE SAME DESTINATION
